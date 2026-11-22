@@ -1,0 +1,6 @@
+model_id,display_name,params,raw_acc_pct,raw_prec_pct,raw_rec_pct,raw_f1_pct,raw_fnr_pct,raw_fpr_pct,raw_roc_auc
+M1_SmallNet_Linear_Stem,M1: SmallNet (Linear + 4-Ch HW Stem) [Proposed],13986,91.59,95.31,88.84,91.96,11.16,5.17,0.9686
+M1_v2_SmallNet_Linear_Stem,M1_v2: SmallNet (Linear + HW Stem v2) [Proposed v2],13986,91.99,96.85,88.08,92.26,11.92,3.39,0.9564
+M2_SmallNet_Linear_NoStem,"M2: SmallNet (Linear RGB, No HW Stem)",13968,84.64,86.26,85.22,85.74,14.78,16.04,0.9114
+B1_PhiNet_15K_sRGB,"B1: PhiNet-15K (a=0.2, b=0.5, sRGB) [ACM TECS '22]",15206,89.46,86.88,94.87,90.7,5.13,16.93,0.9663
+B2_PhiNet_31K_sRGB,"B2: PhiNet-31K (a=0.2, b=1.0, sRGB) [Paper Default]",30995,87.99,85.93,93.06,89.36,6.94,18.0,0.96

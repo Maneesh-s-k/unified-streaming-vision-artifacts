@@ -1,0 +1,15 @@
+model_id,display_name,overall_acc_pct,overall_precision_pct,overall_recall_pct,overall_f1_pct,overall_fnr_escape_pct,overall_fpr_overkill_pct,overall_roc_auc,impeller_recall_pct,impeller_fnr_pct,impeller_fpr_pct,screw_recall_pct,screw_fnr_pct,screw_fpr_pct,nut_recall_pct,nut_fnr_pct,nut_fpr_pct
+M1_SmallNet_Linear_Stem,M1: SmallNet (Linear + 4-Ch HW Stem) [Proposed],97.63,98.47,97.13,97.8,2.87,1.78,0.9938,98.42,1.58,1.7,77.78,22.22,1.85,61.54,38.46,2.78
+M2_SmallNet_Linear_NoStem,"M2: SmallNet (Linear RGB, No HW Stem)",91.01,94.24,88.84,91.46,11.16,6.42,0.96,91.77,8.23,6.79,11.11,88.89,3.7,53.85,46.15,5.56
+M3_SmallNet_sRGB_Stem,M3: SmallNet (Post-ISP sRGB + 4-Ch Stem),96.65,96.56,97.29,96.92,2.71,4.1,0.9947,98.26,1.74,2.55,72.22,27.78,5.56,84.62,15.38,22.22
+M4_SmallNet_sRGB_NoStem,"M4: SmallNet (Post-ISP sRGB, No HW Stem)",95.67,97.96,93.97,95.92,6.03,2.32,0.9825,95.73,4.27,2.55,50.0,50.0,0.0,69.23,30.77,2.78
+M0_SmallNet_RawBayer,M0: SmallNet (Pre-Demosaic Raw RGGB Bayer),94.44,97.6,92.01,94.72,7.99,2.67,0.9799,92.88,7.12,2.76,72.22,27.78,0.0,76.92,23.08,5.56
+M5_MobileNetV2_sRGB_NoStem,M5: MobileNetV2 (Standard sRGB Baseline),98.61,99.54,97.89,98.71,2.11,0.53,0.9908,99.21,0.79,0.21,66.67,33.33,1.85,76.92,23.08,2.78
+M6_MobileNetV2_sRGB_Stem,M6: MobileNetV2 (Post-ISP sRGB + 4-Ch Stem),98.04,98.63,97.74,98.18,2.26,1.6,0.9849,99.21,0.79,1.06,72.22,27.78,7.41,61.54,38.46,0.0
+M7_MobileNetV2_Linear_NoStem,"M7: MobileNetV2 (Linear RGB, No HW Stem)",98.94,99.69,98.34,99.01,1.66,0.36,0.9973,99.05,0.95,0.21,77.78,22.22,1.85,92.31,7.69,0.0
+M8_MobileNetV2_Linear_Stem,M8: MobileNetV2 (Linear + 4-Ch HW Stem),98.2,98.78,97.89,98.33,2.11,1.43,0.9958,99.21,0.79,0.85,83.33,16.67,5.56,53.85,46.15,2.78
+M9_ResNet18_sRGB_NoStem,M9: ResNet-18 (Enterprise Heavyweight Baseline),98.69,99.69,97.89,98.78,2.11,0.36,0.9903,99.05,0.95,0.0,55.56,44.44,1.85,100.0,0.0,2.78
+B1_Otsu_Morphological,B1: Rule-Based Otsu + Morphological Threshold,49.59,69.49,12.37,21.0,87.63,6.42,0.6065,10.92,89.08,0.0,0.0,100.0,0.0,100.0,0.0,100.0
+B2_Mahalanobis_Linear,B2: Statistical Mahalanobis + Linear Discriminant,78.02,98.05,60.63,74.93,39.37,1.43,0.9106,62.82,37.18,0.64,11.11,88.89,7.41,23.08,76.92,2.78
+B1_PhiNet_15K_sRGB,"B1: PhiNet-15K (a=0.2, b=0.5, sRGB) [ACM TECS '22]",96.41,97.11,96.23,96.67,3.77,3.39,0.9767,98.89,1.11,3.4,44.44,55.56,1.85,38.46,61.54,5.56
+B2_PhiNet_31K_sRGB,"B2: PhiNet-31K (a=0.2, b=1.0, sRGB) [Paper Default]",94.28,96.4,92.91,94.62,7.09,4.1,0.9809,95.41,4.59,4.25,55.56,44.44,3.7,23.08,76.92,2.78

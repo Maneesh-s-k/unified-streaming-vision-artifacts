@@ -1,0 +1,37 @@
+domain,config_id,display_name,arch,mode,train_regime,epochs,params,dram_bw,latency_ms,calibrated_threshold,accuracy,precision,recall,escape_rate_fnr,overkill_rate_fpr,f1,roc_auc,training_time_s
+transistor,M1_SmallNet_Linear_Stem_Scratch,M1: SmallNet (Linear + HW Stem) [Proposed - Scratch],smallnet,linear_stem,scratch,25,14818,0.0 GB/s,1.8,0.17,64.0,71.88,46.0,54.0,18.0,56.1,0.6123,405.7
+transistor,M1_v2_SmallNet_Linear_Stem_Scratch,M1_v2: SmallNet (Linear + HW Stem v2) [Proposed v2 - Scratch],smallnet,linear_stem_v2_noae,scratch,25,14818,0.0 GB/s,1.8,0.05,63.5,67.53,52.0,48.0,25.0,58.76,0.7045,352.0
+transistor,M2_SmallNet_Linear_NoStem_Scratch,M2: SmallNet (Linear NoStem) [Ablation - Scratch],smallnet,linear_nostem,scratch,25,14818,0.0 GB/s,1.8,0.6,58.0,58.89,53.0,47.0,37.0,55.79,0.6587,382.7
+transistor,M5_MobileNetV2_sRGB_Scratch,M5: MobileNetV2 (sRGB) [Competitor - Scratch],mobilenetv2,competitor_srgb,scratch,25,2225122,4.45 GB/s,16.7,0.06,67.0,75.76,50.0,50.0,16.0,60.24,0.6338,908.9
+transistor,M5_MobileNetV2_sRGB_FineTuned,M5: MobileNetV2 (sRGB) [Competitor - Fine-Tuned],mobilenetv2,competitor_srgb,finetune,15,2225122,4.45 GB/s,16.7,0.06,64.0,61.48,75.0,25.0,47.0,67.57,0.714,204.2
+transistor,M9_ResNet18_sRGB_Scratch,M9: ResNet-18 (sRGB) [Heavyweight - Scratch],resnet18,competitor_srgb,scratch,25,11177538,22.35 GB/s,16.7,0.05,79.0,72.66,93.0,7.0,35.0,81.58,0.9076,1013.8
+transistor,M9_ResNet18_sRGB_FineTuned,M9: ResNet-18 (sRGB) [Heavyweight - Fine-Tuned],resnet18,competitor_srgb,finetune,15,11177538,22.35 GB/s,16.7,0.09,65.0,69.23,54.0,46.0,24.0,60.67,0.7269,228.5
+transistor,B1_PhiNet_15K_sRGB_Scratch,"B1: PhiNet-15K (a=0.2, b=0.5, sRGB) [ACM TECS '22 - Scratch]",phinet,competitor_srgb,scratch,25,15206,Frame-Buf (SE+Skip),16.7,0.17,63.5,66.67,54.0,46.0,27.0,59.67,0.6253,198.4
+transistor,B2_PhiNet_31K_sRGB_Scratch,"B2: PhiNet-31K (a=0.2, b=1.0, sRGB) [Paper Default - Scratch]",phinet,competitor_srgb,scratch,25,30995,Frame-Buf (SE+Skip),16.7,0.52,67.0,72.97,54.0,46.0,20.0,62.07,0.598,244.8
+pcb,M1_SmallNet_Linear_Stem_Scratch,M1: SmallNet (Linear + HW Stem) [Proposed - Scratch],smallnet,linear_stem,scratch,25,14818,0.0 GB/s,1.8,0.42,58.0,58.51,55.0,45.0,39.0,56.7,0.5951,413.6
+pcb,M1_v2_SmallNet_Linear_Stem_Scratch,M1_v2: SmallNet (Linear + HW Stem v2) [Proposed v2 - Scratch],smallnet,linear_stem_v2_noae,scratch,25,14818,0.0 GB/s,1.8,0.24,70.0,68.52,74.0,26.0,34.0,71.15,0.7522,350.0
+pcb,M2_SmallNet_Linear_NoStem_Scratch,M2: SmallNet (Linear NoStem) [Ablation - Scratch],smallnet,linear_nostem,scratch,25,14818,0.0 GB/s,1.8,0.53,72.5,72.73,72.0,28.0,27.0,72.36,0.7662,408.0
+pcb,M5_MobileNetV2_sRGB_Scratch,M5: MobileNetV2 (sRGB) [Competitor - Scratch],mobilenetv2,competitor_srgb,scratch,25,2225122,4.45 GB/s,16.7,0.11,70.5,73.56,64.0,36.0,23.0,68.45,0.7989,2866.1
+pcb,M5_MobileNetV2_sRGB_FineTuned,M5: MobileNetV2 (sRGB) [Competitor - Fine-Tuned],mobilenetv2,competitor_srgb,finetune,15,2225122,4.45 GB/s,16.7,0.41,91.5,94.62,88.0,12.0,5.0,91.19,0.956,1106.0
+pcb,M9_ResNet18_sRGB_Scratch,M9: ResNet-18 (sRGB) [Heavyweight - Scratch],resnet18,competitor_srgb,scratch,25,11177538,22.35 GB/s,16.7,0.13,75.0,77.17,71.0,29.0,21.0,73.96,0.8524,960.2
+pcb,M9_ResNet18_sRGB_FineTuned,M9: ResNet-18 (sRGB) [Heavyweight - Fine-Tuned],resnet18,competitor_srgb,finetune,15,11177538,22.35 GB/s,16.7,0.35,92.5,89.72,96.0,4.0,11.0,92.75,0.9484,207.7
+pcb,B1_PhiNet_15K_sRGB_Scratch,"B1: PhiNet-15K (a=0.2, b=0.5, sRGB) [ACM TECS '22 - Scratch]",phinet,competitor_srgb,scratch,25,15206,Frame-Buf (SE+Skip),16.7,0.81,73.5,79.75,63.0,37.0,16.0,70.39,0.824,196.4
+pcb,B2_PhiNet_31K_sRGB_Scratch,"B2: PhiNet-31K (a=0.2, b=1.0, sRGB) [Paper Default - Scratch]",phinet,competitor_srgb,scratch,25,30995,Frame-Buf (SE+Skip),16.7,0.91,62.5,68.12,47.0,53.0,22.0,55.62,0.6915,231.8
+pill,M1_SmallNet_Linear_Stem_Scratch,M1: SmallNet (Linear + HW Stem) [Proposed - Scratch],smallnet,linear_stem,scratch,25,14818,0.0 GB/s,1.8,0.36,66.0,62.9,78.0,22.0,46.0,69.64,0.7295,373.9
+pill,M1_v2_SmallNet_Linear_Stem_Scratch,M1_v2: SmallNet (Linear + HW Stem v2) [Proposed v2 - Scratch],smallnet,linear_stem_v2_noae,scratch,25,14818,0.0 GB/s,1.8,0.63,73.5,68.5,87.0,13.0,40.0,76.65,0.8343,354.5
+pill,M2_SmallNet_Linear_NoStem_Scratch,M2: SmallNet (Linear NoStem) [Ablation - Scratch],smallnet,linear_nostem,scratch,25,14818,0.0 GB/s,1.8,0.05,83.0,81.13,86.0,14.0,20.0,83.5,0.915,372.1
+pill,M5_MobileNetV2_sRGB_Scratch,M5: MobileNetV2 (sRGB) [Competitor - Scratch],mobilenetv2,competitor_srgb,scratch,25,2225122,4.45 GB/s,16.7,0.05,76.0,78.89,71.0,29.0,19.0,74.74,0.7785,871.6
+pill,M5_MobileNetV2_sRGB_FineTuned,M5: MobileNetV2 (sRGB) [Competitor - Fine-Tuned],mobilenetv2,competitor_srgb,finetune,15,2225122,4.45 GB/s,16.7,0.05,82.5,81.55,84.0,16.0,19.0,82.76,0.9118,184.6
+pill,M9_ResNet18_sRGB_Scratch,M9: ResNet-18 (sRGB) [Heavyweight - Scratch],resnet18,competitor_srgb,scratch,25,11177538,22.35 GB/s,16.7,0.05,82.5,83.51,81.0,19.0,16.0,82.23,0.9361,963.5
+pill,M9_ResNet18_sRGB_FineTuned,M9: ResNet-18 (sRGB) [Heavyweight - Fine-Tuned],resnet18,competitor_srgb,finetune,15,11177538,22.35 GB/s,16.7,0.58,76.0,78.89,71.0,29.0,19.0,74.74,0.891,215.0
+pill,B1_PhiNet_15K_sRGB_Scratch,"B1: PhiNet-15K (a=0.2, b=0.5, sRGB) [ACM TECS '22 - Scratch]",phinet,competitor_srgb,scratch,25,15206,Frame-Buf (SE+Skip),16.7,0.46,71.5,71.29,72.0,28.0,29.0,71.64,0.7438,195.6
+pill,B2_PhiNet_31K_sRGB_Scratch,"B2: PhiNet-31K (a=0.2, b=1.0, sRGB) [Paper Default - Scratch]",phinet,competitor_srgb,scratch,25,30995,Frame-Buf (SE+Skip),16.7,0.07,60.5,57.34,82.0,18.0,61.0,67.49,0.6406,326.7
+zipper,M1_SmallNet_Linear_Stem_Scratch,M1: SmallNet (Linear + HW Stem) [Proposed - Scratch],smallnet,linear_stem,scratch,25,14818,0.0 GB/s,1.8,0.49,55.0,52.81,94.0,6.0,84.0,67.63,0.552,382.8
+zipper,M1_v2_SmallNet_Linear_Stem_Scratch,M1_v2: SmallNet (Linear + HW Stem v2) [Proposed v2 - Scratch],smallnet,linear_stem_v2,scratch,25,14818,0.0 GB/s,1.8,0.16,67.5,60.87,98.0,2.0,63.0,75.1,0.6928,343.2
+zipper,M2_SmallNet_Linear_NoStem_Scratch,M2: SmallNet (Linear NoStem) [Ablation - Scratch],smallnet,linear_nostem,scratch,25,14818,0.0 GB/s,1.8,0.94,52.5,51.28,100.0,0.0,95.0,67.8,0.9646,380.5
+zipper,M5_MobileNetV2_sRGB_Scratch,M5: MobileNetV2 (sRGB) [Competitor - Scratch],mobilenetv2,competitor_srgb,scratch,25,2225122,4.45 GB/s,16.7,0.05,69.5,63.45,92.0,8.0,53.0,75.1,0.7809,964.8
+zipper,M5_MobileNetV2_sRGB_FineTuned,M5: MobileNetV2 (sRGB) [Competitor - Fine-Tuned],mobilenetv2,competitor_srgb,finetune,15,2225122,4.45 GB/s,16.7,0.12,70.5,84.75,50.0,50.0,9.0,62.89,0.7445,202.1
+zipper,M9_ResNet18_sRGB_Scratch,M9: ResNet-18 (sRGB) [Heavyweight - Scratch],resnet18,competitor_srgb,scratch,25,11177538,22.35 GB/s,16.7,0.05,71.5,65.25,92.0,8.0,49.0,76.35,0.7763,986.6
+zipper,M9_ResNet18_sRGB_FineTuned,M9: ResNet-18 (sRGB) [Heavyweight - Fine-Tuned],resnet18,competitor_srgb,finetune,15,11177538,22.35 GB/s,16.7,0.36,70.0,83.33,50.0,50.0,10.0,62.5,0.6494,212.9
+zipper,B1_PhiNet_15K_sRGB_Scratch,"B1: PhiNet-15K (a=0.2, b=0.5, sRGB) [ACM TECS '22 - Scratch]",phinet,competitor_srgb,scratch,25,15206,Frame-Buf (SE+Skip),16.7,0.05,67.0,61.33,92.0,8.0,58.0,73.6,0.7064,203.6
+zipper,B2_PhiNet_31K_sRGB_Scratch,"B2: PhiNet-31K (a=0.2, b=1.0, sRGB) [Paper Default - Scratch]",phinet,competitor_srgb,scratch,25,30995,Frame-Buf (SE+Skip),16.7,0.5,70.5,64.34,92.0,8.0,51.0,75.72,0.7275,237.6

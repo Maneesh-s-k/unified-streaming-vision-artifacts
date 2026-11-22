@@ -1,0 +1,13 @@
+Module Name,Description,Top Module,Xilinx LUTs,Xilinx FFs,Xilinx DSP48,Xilinx BRAM,CARRY4,ASIC Cells,Est. Gate Equiv (GE)
+early_tap_conv_stem,Node B: 4-Channel Stem & Bounding Box Tracker,early_tap_conv_stem,915,513,0,0,50,95,159
+demosaic_directional,Node A: Directional Edge-Adaptive Demosaic Core,demosaic_directional,606,99,0,0,28,51,85
+spatial_window_3x3,Cascaded 3x3 Sliding Window Matrix Generator,spatial_window_3x3,324,788,0,1,3,93,156
+line_buffer,Dual-Port Circular SRAM Line Buffer (640-px),line_buffer,84,39,0,1,3,26,43
+node2_blc,Front-End: Black Level Correction,node2_blc,48,39,0,0,2,29,48
+node3_dpc,Front-End: Defective Pixel Correction (Median),node3_dpc,216,255,0,0,14,51,85
+node4_lsc,Front-End: Radial Lens Shading Correction,node4_lsc,141,183,4,0,9,58,97
+ccm_fixedpoint,Node C: Signed Q4.12 Color Correction Matrix,ccm_fixedpoint,657,99,12,0,33,108,181
+gamma_lut,Node C: Single-Cycle 256x8 Gamma SRAM LUT,gamma_lut,3,9,0,3,0,21,35
+hud_compositor,Node C: Real-Time In-Line Alpha-Blender,hud_compositor,636,81,6,0,67,80,134
+stats_accumulator,Node D: Task-Aware Saliency Exposure Statistics,stats_accumulator,10347,237,0,0,666,37,62
+i2c_master,Node D: Autonomous VBI Hardware I2C Master,i2c_master,180,225,0,0,4,222,372

@@ -1,0 +1,15 @@
+model_id,display_name,micro_recall_pct,micro_fnr_pct,macro_recall_pct,macro_fnr_pct,structural_recall_pct,structural_fnr_pct,cavity_recall_pct,cavity_fnr_pct,spectral_recall_pct,spectral_fnr_pct
+M1_SmallNet_Linear_Stem,M1: SmallNet (Linear + 4-Ch HW Stem) [Proposed],82.35,17.65,97.52,2.48,71.43,28.57,98.42,1.58,66.67,33.33
+M2_SmallNet_Linear_NoStem,"M2: SmallNet (Linear RGB, No HW Stem)",17.65,82.35,90.71,9.29,25.0,75.0,91.77,8.23,66.67,33.33
+M3_SmallNet_sRGB_Stem,M3: SmallNet (Post-ISP sRGB + 4-Ch Stem),88.24,11.76,97.52,2.48,75.0,25.0,98.26,1.74,100.0,0.0
+M4_SmallNet_sRGB_NoStem,"M4: SmallNet (Post-ISP sRGB, No HW Stem)",58.82,41.18,94.89,5.11,57.14,42.86,95.73,4.27,66.67,33.33
+M0_SmallNet_RawBayer,M0: SmallNet (Pre-Demosaic Raw RGGB Bayer),76.47,23.53,92.41,7.59,75.0,25.0,92.88,7.12,66.67,33.33
+M5_MobileNetV2_sRGB_NoStem,M5: MobileNetV2 (Standard sRGB Baseline),70.59,29.41,98.61,1.39,71.43,28.57,99.21,0.79,66.67,33.33
+M6_MobileNetV2_sRGB_Stem,M6: MobileNetV2 (Post-ISP sRGB + 4-Ch Stem),76.47,23.53,98.3,1.7,67.86,32.14,99.21,0.79,66.67,33.33
+M7_MobileNetV2_Linear_NoStem,"M7: MobileNetV2 (Linear RGB, No HW Stem)",88.24,11.76,98.61,1.39,82.14,17.86,99.05,0.95,100.0,0.0
+M8_MobileNetV2_Linear_Stem,M8: MobileNetV2 (Linear + 4-Ch HW Stem),76.47,23.53,98.45,1.55,75.0,25.0,99.21,0.79,33.33,66.67
+M9_ResNet18_sRGB_NoStem,M9: ResNet-18 (Enterprise Heavyweight Baseline),76.47,23.53,98.45,1.55,71.43,28.57,99.05,0.95,100.0,0.0
+B1_Otsu_Morphological,B1: Rule-Based Otsu + Morphological Threshold,17.65,82.35,12.23,87.77,35.71,64.29,10.92,89.08,100.0,0.0
+B2_Mahalanobis_Linear,B2: Statistical Mahalanobis + Linear Discriminant,11.76,88.24,61.92,38.08,17.86,82.14,62.82,37.18,0.0,100.0
+B1_PhiNet_15K_sRGB,"B1: PhiNet-15K (a=0.2, b=0.5, sRGB) [ACM TECS '22]",47.06,52.94,97.52,2.48,42.86,57.14,98.89,1.11,33.33,66.67
+B2_PhiNet_31K_sRGB,"B2: PhiNet-31K (a=0.2, b=1.0, sRGB) [Paper Default]",52.94,47.06,93.96,6.04,46.43,53.57,95.41,4.59,0.0,100.0

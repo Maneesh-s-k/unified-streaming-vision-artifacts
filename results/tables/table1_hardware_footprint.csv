@@ -1,0 +1,13 @@
+model_id,display_name,ingestion_mode,input_shape,total_params,fpga_backbone_params,mcu_head_params,int8_weight_kb,sram_line_buffer_kb,external_dram_gbs,total_mmacs,dsp_in_stem,latency_ms
+M1_SmallNet_Linear_Stem,M1: SmallNet (Linear + 4-Ch HW Stem) [Proposed],linear_stem,4x300x300,13986,7696,6290,13.66,4.8,0.0,12.14,0,0.04
+M2_SmallNet_Linear_NoStem,"M2: SmallNet (Linear RGB, No HW Stem)",linear_nostem,3x300x300,13968,7678,6290,13.64,6.6,0.0,11.71,27,0.05
+M3_SmallNet_sRGB_Stem,M3: SmallNet (Post-ISP sRGB + 4-Ch Stem),srgb_stem,4x300x300,13986,7696,6290,13.66,5.05,0.0,12.14,9,0.04
+M4_SmallNet_sRGB_NoStem,"M4: SmallNet (Post-ISP sRGB, No HW Stem)",srgb_nostem,3x300x300,13968,7678,6290,13.64,6.85,0.0,11.71,36,0.05
+M0_SmallNet_RawBayer,M0: SmallNet (Pre-Demosaic Raw RGGB Bayer),raw_bayer,4x300x300,13986,7696,6290,13.66,4.8,0.0,12.14,0,0.04
+M5_MobileNetV2_sRGB_NoStem,M5: MobileNetV2 (Standard sRGB Baseline),competitor_srgb,3x224x224,2226434,2223872,2562,2174.25,1536.0,1.2,300.78,864,14.8
+M6_MobileNetV2_sRGB_Stem,M6: MobileNetV2 (Post-ISP sRGB + 4-Ch Stem),srgb_stem,4x224x224,2226722,2224160,2562,2174.53,1536.0,1.2,307.99,1152,14.9
+M7_MobileNetV2_Linear_NoStem,"M7: MobileNetV2 (Linear RGB, No HW Stem)",linear_nostem,3x224x224,2226434,2223872,2562,2174.25,1536.0,1.2,300.78,864,14.8
+M8_MobileNetV2_Linear_Stem,M8: MobileNetV2 (Linear + 4-Ch HW Stem),linear_stem,4x224x224,2226722,2224160,2562,2174.53,1536.0,1.2,307.99,1152,14.9
+M9_ResNet18_sRGB_NoStem,M9: ResNet-18 (Enterprise Heavyweight Baseline),competitor_srgb,3x224x224,11177538,11176512,1026,10915.56,3200.0,3.8,1818.56,9408,48.5
+B1_Otsu_Morphological,B1: Rule-Based Otsu + Morphological Threshold,linear_stem,4x300x300,8,4,4,0.01,2.4,0.0,0.9,0,0.02
+B2_Mahalanobis_Linear,B2: Statistical Mahalanobis + Linear Discriminant,linear_stem,4x300x300,1368,36,1332,1.34,2.4,0.0,1.8,0,0.02

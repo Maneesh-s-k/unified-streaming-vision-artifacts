@@ -1,0 +1,5 @@
+config_id,mode,accuracy_pct,precision_pct,recall_pct,fnr_pct,fpr_pct,f1_pct,roc_auc,train_time_s
+M1_SmallNet_Linear_Stem_Ref,linear_stem,91.59,95.31,88.84,11.16,5.17,91.96,0.9686,0.0
+M2_SmallNet_Linear_NoStem_Ref,linear_nostem,84.64,86.26,85.22,14.78,16.04,85.74,0.9114,0.0
+M1_v2_AE_Base,linear_stem_v2,91.99,96.85,88.08,11.92,3.39,92.26,0.9564,215.7
+M1_v2_NoAE_Base,linear_stem_v2_noae,90.93,94.81,88.08,11.92,5.7,91.32,0.951,251.4

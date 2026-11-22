@@ -1,0 +1,9 @@
+Sample ID,Component Name,Ground Truth,Hardware BBox,HUD Pixels,Pure Video MSE,Pure Video PSNR (dB),Pure Video SSIM,Exact Match Rate,Verification Verdict
+casting_ok,Cast Impeller (Nominal),Nominal,"X:[2, 318], Y:[1, 238]",2442,0.000000,99.99,1.0000,100.00%,PASSED
+casting_def,Cast Impeller (Defective Cavity),Defective,"X:[2, 318], Y:[1, 238]",2442,0.000000,99.99,1.0000,100.00%,PASSED
+nut_good,M8 Metal Nut (Nominal),Nominal,"X:[31, 290], Y:[22, 218]",1825,0.000000,99.99,1.0000,100.00%,PASSED
+nut_scratch,M8 Metal Nut (Surface Scratch),Defective,"X:[29, 291], Y:[23, 219]",1837,0.000000,99.99,1.0000,100.00%,PASSED
+nut_color,M8 Metal Nut (Spectral Oxidation),Defective,"X:[23, 299], Y:[16, 224]",1941,0.000000,99.99,1.0000,100.00%,PASSED
+screw_good,M6 Metal Screw (Nominal),Nominal,"X:[2, 318], Y:[1, 238]",2442,0.000000,99.99,1.0000,100.00%,PASSED
+screw_thread_def,M6 Metal Screw (Thread Defect),Defective,"X:[2, 318], Y:[1, 238]",2442,0.000000,99.99,1.0000,100.00%,PASSED
+screw_scratch_head,M6 Metal Screw (Head Scratch),Defective,"X:[2, 318], Y:[1, 238]",2442,0.000000,99.99,1.0000,100.00%,PASSED

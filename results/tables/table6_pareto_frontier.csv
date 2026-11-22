@@ -1,0 +1,13 @@
+model_id,display_name,total_params,total_mmacs,test_acc_pct,test_recall_pct,test_f1_pct,eta_mac_acc_per_mmac,eta_param_acc_per_kparam,pareto_efficiency_index_pei,hardware_figure_of_merit_hfom
+M1_SmallNet_Linear_Stem,M1: SmallNet (Linear + 4-Ch HW Stem) [Proposed],13986,12.14,97.63,97.13,97.8,8.0421,6.9806,3.33,150993.30274
+M2_SmallNet_Linear_NoStem,"M2: SmallNet (Linear RGB, No HW Stem)",13968,11.71,91.01,88.84,91.46,7.7723,6.5158,3.1215,117264.912859
+M3_SmallNet_sRGB_Stem,M3: SmallNet (Post-ISP sRGB + 4-Ch Stem),13986,12.14,96.65,97.29,96.92,7.9613,6.9105,3.3001,149637.1143
+M4_SmallNet_sRGB_NoStem,"M4: SmallNet (Post-ISP sRGB, No HW Stem)",13968,11.71,95.67,93.97,95.92,8.1699,6.8492,3.2737,122983.685856
+M0_SmallNet_RawBayer,M0: SmallNet (Pre-Demosaic Raw RGGB Bayer),13986,12.14,94.44,92.01,94.72,7.7796,6.7528,3.2252,146241.857014
+M5_MobileNetV2_sRGB_NoStem,M5: MobileNetV2 (Standard sRGB Baseline),2226434,300.78,98.61,97.89,98.71,0.3279,0.0443,1.8341,0.026108
+M6_MobileNetV2_sRGB_Stem,M6: MobileNetV2 (Post-ISP sRGB + 4-Ch Stem),2226722,307.99,98.04,97.74,98.18,0.3183,0.044,1.8221,0.025187
+M7_MobileNetV2_Linear_NoStem,"M7: MobileNetV2 (Linear RGB, No HW Stem)",2226434,300.78,98.94,98.34,99.01,0.3289,0.0444,1.8398,0.026189
+M8_MobileNetV2_Linear_Stem,M8: MobileNetV2 (Linear + 4-Ch HW Stem),2226722,307.99,98.2,97.89,98.33,0.3188,0.0441,1.825,0.025226
+M9_ResNet18_sRGB_NoStem,M9: ResNet-18 (Enterprise Heavyweight Baseline),11177538,1818.56,98.69,97.89,98.78,0.0543,0.0088,1.5135,0.000263
+B1_Otsu_Morphological,B1: Rule-Based Otsu + Morphological Threshold,8,0.9,49.59,12.37,21.0,55.1017,6198.9375,3.9051,1529078670.222222
+B2_Mahalanobis_Linear,B2: Statistical Mahalanobis + Linear Discriminant,1368,1.8,78.02,60.63,74.93,43.3461,57.0343,3.8196,15953927.984405
